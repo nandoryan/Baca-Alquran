@@ -11,7 +11,7 @@ interface AyatData {
 export default async function Product({params} : {params:{surahId:string}}) {
   const fetchData = await fetch (`https://equran.id/api/v2/surat/${params.surahId}`)
   const res =await fetchData.json()
-  console.log(res)
+  // console.log(res)
   return (
     <div>
       {/* <h1>{params.surahId}</h1>
@@ -55,7 +55,7 @@ export default async function Product({params} : {params:{surahId:string}}) {
           </div>
         </div>
         <div className="p-4 bg-gray-200">
-      <Link href="/"><button className="px-4 py-2 text-white bg-blue-500 rounded-md">
+      <Link href="/tes"><button className="px-4 py-2 text-white bg-blue-500 rounded-md">
                   back
           </button></Link>
         </div>

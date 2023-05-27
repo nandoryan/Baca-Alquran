@@ -1,4 +1,4 @@
-import ProductList from "./tes/page";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -15,9 +15,11 @@ export default function Home() {
     </div>
   </div>
 </div>
-
-     
-     <div> <ProductList/></div>
+<div className="container text-center">
+<Link href="/tes"><button className="px-4 py-2 text-white bg-blue-500 rounded-md">
+                  klik di sini untuk memulai membaca Al-Quran
+          </button></Link>
+          </div>
     </div>
     
   );

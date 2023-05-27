@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "Apple 7",
+      "category": "Smartphone",
+      "price": "500000",
+      "id": 1
+    },
+    {
+      "title": "shoes",
+      "category": "If a dog chews shoes whose shoes does he choose?",
+      "price": "22",
+      "id": 2
+    }
+  ]
+}

@@ -1,4 +1,10 @@
 import Link from "next/link"
+
+interface AyatData {
+  nomorAyat: number;
+  // Add other properties here
+}
+
 export default async function Product({params} : {params:{surahId:string}}) {
   const fetchData = await fetch (`https://equran.id/api/v2/surat/${params.surahId}`)
   const res =await fetchData.json()
@@ -34,7 +40,7 @@ export default async function Product({params} : {params:{surahId:string}}) {
           </div> */}
           <div className="p-4 bg-white">
             <div className="space-y-4">
-              {res.data.ayat.map((data) => (
+              {res.data.ayat.map((data: AyatData) => (
                 <div key={data.nomorAyat}>
                   <div className="text-sm text-gray-800 ">{data.nomorAyat}</div>
                   <div className="text-gray-600 text-right font-arabic text-2xl">{data.teksArab}</div>

@@ -7,6 +7,7 @@ export const metadata = {
 type Product = {
   id: number;
   namaLatin: string;
+  data: string;
   jumlahAyat: number;
 };
 
@@ -36,7 +37,7 @@ export default async function ProductList() {
       </tr>
     </thead>
     <tbody>
-      {product.data.map((product, index) => (
+      {product?.data.map((product, index) => (
         <tr key={product.id}>
           <td>{index + 1}</td>
           <td>

@@ -2,6 +2,9 @@ import Link from "next/link"
 
 interface AyatData {
   nomorAyat: number;
+  teksArab: string;
+  teksLatin: string;
+  teksIndonesia: string;
   // Add other properties here
 }
 
